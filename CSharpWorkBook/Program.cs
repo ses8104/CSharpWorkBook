@@ -13,14 +13,6 @@ namespace CSharpWorkBook
 
         static void Main(string[] args)
         {
-            MyButtonEvent myButtonEvent = new MyButtonEvent();
-            myButtonEvent.Run();
-
-            MyButtonEvent btn = new MyButtonEvent();
-            btn.Click += new EventHandler(btn_Click);
-
-            btn.Text = "Run";
-
             //var Signs = (new SignContext()).Sings;
             //foreach (var sign in Signs)
             //{
